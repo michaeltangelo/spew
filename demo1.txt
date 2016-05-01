@@ -1,0 +1,11 @@
+public class Car {
+	String make = "honda";
+	String color = "blue";
+	double cost = 35000;
+	int numWheels = 4;
+}
+
+public class SpewDemo {
+	public static void main(String[] args) {
+		// to do: make a car
+		

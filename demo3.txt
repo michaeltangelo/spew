@@ -1,0 +1,22 @@
+public class Car {
+	String make = "honda";
+	String color = "blue";
+	double cost = 35000;
+	int numWheels = 4;
+}
+
+public class SpewDemo {
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 20;
+		addTwoNumbers(a, b);
+		
+		Car one = new Car();
+		Car two = new Car();
+		Car three = new Car();
+		totalCost(one, two, three, a, b);
+	}
+
+	// to do: implement addTwoNumbers
+	// to do: implement totalCost
+
