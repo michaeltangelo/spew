@@ -11,4 +11,4 @@ public class SpewDemo {
         b.add(4);
         b.add(5);
 
-        for(i = 0; i < 30; i++) {}
+        
