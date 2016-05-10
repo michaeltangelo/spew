@@ -137,13 +137,18 @@ def spew_new_function_pp(d):
             plist.append(i.title())
         elif i not in types and i not in classes:
             temp.append(i)
+            
+  
+  # " ".join(list(map(lambda x,y:x+" "+y+",",a[::2],a[1::2])))[:-1]
+   
+   '''
     plist.append(''.join(temp))
     plist = list(filter(None,plist))           
 
     # add comma to every other arg
     for i in range(1, len(plist)-2,2):
         plist[i] = plist[i]+","
-        
+    '''
     args.append(' '.join(plist))
     return spew_new_function(args)
 
